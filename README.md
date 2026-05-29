@@ -1,9 +1,58 @@
-Movie ManiacMovie Maniac is a fast, responsive, frontend-only React web application built with Vite. It allows users to discover real-time movies, browse by categories using customized filters, and seamlessly toggle between light and dark themes. The application fetches live data directly from the IMDb API to provide up-to-date movie information.🚀 FeaturesReal-Time Data: Fetches live movie details directly using the IMDb API.Category Filtering: Browse and sort movies easily via the integrated filter groups.Theme Toggle: Smooth switching between Light Mode and Dark Mode interfaces.Pure Frontend: Built entirely with React.js using client-side state management; no backend required.Vite-Powered: Optimized build tooling for blazing fast development and performance.🛠️ Tech StackBuild Tool: ViteFramework: React.js (JSX)Styling: Vanilla CSS (Component-scoped stylesheets)📦 Installation & SetupFollow these steps to run the project locally on your machine.PrerequisitesEnsure you have Node.js and npm installed.StepsClone the Repositorybashgit clone https://github.com
-cd moviemanic
-Use code with caution.Install Dependenciesbashnpm install
-Use code with caution.Set Up Environment VariablesCreate a .env file in the root directory and add your IMDb API key:envVITE_IMDB_API_KEY=your_api_key_here
-Use code with caution.Start the Development Serverbashnpm run dev
-Use code with caution.Open the local URL provided in your terminal (usually http://localhost:5173) to view it in your browser.📂 Project StructuretextMOVIEMANIC/
+# Movie Maniac
+
+Movie Maniac is a fast, responsive, frontend-only React web application built with Vite. It allows users to discover real-time movies, browse by categories using customized filters, and seamlessly toggle between light and dark themes. The application fetches live data directly from the IMDb API to provide up-to-date movie information.
+
+## 🚀 Features
+
+* **Real-Time Data**: Fetches live movie details directly using the IMDb API.
+* **Category Filtering**: Browse and sort movies easily via the integrated filter groups.
+* **Theme Toggle**: Smooth switching between Light Mode and Dark Mode interfaces.
+* **Pure Frontend**: Built entirely with React.js using client-side state management; no backend required.
+* **Vite-Powered**: Optimized build tooling for blazing fast development and performance.
+
+## 🛠️ Tech Stack
+
+* **Build Tool**: Vite
+* **Framework**: React.js (JSX)
+* **Styling**: Vanilla CSS (Component-scoped stylesheets)
+
+## 📦 Installation & Setup
+
+Follow these steps to run the project locally on your machine.
+
+### Prerequisites
+
+Ensure you have **Node.js** and **npm** installed.
+
+### Steps
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com
+   cd movie-maniac
+   ```
+
+2. **Install Dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**
+   Create a `.env` file in the root directory and add your IMDb API key:
+   ```env
+   VITE_IMDB_API_KEY=your_api_key_here
+   ```
+
+4. **Start the Development Server**
+   ```bash
+   npm run dev
+   ```
+   Open the local URL provided in your terminal (usually `http://localhost:5173`) to view it in your browser.
+
+## 📂 Project Structure
+
+```text
+MOVIEMANIC/
 ├── node_modules/
 ├── public/
 ├── src/
@@ -29,4 +78,8 @@ Use code with caution.Open the local URL provided in your terminal (usually http
 ├── eslint.config.js          # Linter configuration
 ├── package.json              # Project dependencies and scripts
 └── README.md                 # Project documentation
-📜 LicenseThis project is licensed under the MIT License.
+```
+
+## 📜 License
+
+This project is licensed under the MIT License.
